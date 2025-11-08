@@ -222,8 +222,8 @@ Check each repo's `CONTRIBUTING.md` for guidelines.
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Join_Our_Community-5865f2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0f172a)](https://discord.gg/aethyrion)
-[![Reddit](https://www.reddit.com/r/Aethyrion/)
+[![Discord](https://img.shields.io/badge/Discord-Join_Our_Community-5865f2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0f172a)](https://discord.gg/UZPWT8PxDe)
+[![Reddit](https://img.shields.io/badge/Reddit-r/aethyrion-ff4500?style=for-the-badge&logo=reddit&logoColor=white&labelColor=0f172a)](https://www.reddit.com/r/aethyrion)
 [![Website](https://img.shields.io/badge/Website-aethyrion.org-8b5cf6?style=for-the-badge&labelColor=0f172a)](https://aethyrion.org)
 
 </div>
@@ -246,6 +246,6 @@ All Aethyrion tools are released under the **MIT License**. Use them, modify the
 
 ---
 
-**[⭐ Star this organization](https://github.com/AethyrionAI)** • **[🌐 Visit Website](https://aethyrion.org)** • **[💬 Join Discord](https://discord.gg/UZPWT8PxDe)** • **[Visit subreddit](https://www.reddit.com/r/aethyrion)
+**[⭐ Star this organization](https://github.com/AethyrionAI)** • **[🌐 Visit Website](https://aethyrion.org)** • **[💬 Join Discord](https://discord.gg/UZPWT8PxDe)** • **[🗨️ Join r/aethyrion](https://www.reddit.com/r/aethyrion)**
 
 </div>

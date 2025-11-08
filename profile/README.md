@@ -246,6 +246,6 @@ All Aethyrion tools are released under the **MIT License**. Use them, modify the
 
 ---
 
-**[⭐ Star this organization](https://github.com/AethyrionAI)** • **[🌐 Visit Website](https://aethyrion.org)** • **[💬 Join Discord](https://discord.gg/aethyrion)**
+**[⭐ Star this organization](https://github.com/AethyrionAI)** • **[🌐 Visit Website](https://aethyrion.org)** • **[💬 Join Discord](https://discord.gg/UZPWT8PxDe)** • **[Visit subreddit](https://www.reddit.com/r/aethyrion)
 
 </div>

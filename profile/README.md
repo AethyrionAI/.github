@@ -185,16 +185,16 @@ Or download the desktop app from [Releases](https://github.com/AethyrionAI/Helix
 
 ## 🎯 Roadmap
 
-**Q1 2025**
+**Q4 2025**
 - ✅ Helix v1.0 - AI component generator (DONE)
 - ✅ Prism Beta - ServiceNow assistant (DONE)
 - 🔜 Observatory Alpha - Self-hosted observability
 
-**Q2 2025**
+**Q1 2026**
 - 🔜 Conduit Alpha - API testing platform
 - 🔜 Spectra Alpha - AI code review
 
-**Q3 2025**
+**Q2 2026**
 - 🔜 Helix v2.0 - Multi-framework support
 - 🔜 Observatory v1.0 - Production ready
 

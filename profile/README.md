@@ -36,7 +36,7 @@ Aethyrion is building a complete ecosystem of **100% free, open-source alternati
 | **[Helix](https://github.com/AethyrionAI/Helix)** 🌀 | ✅ **LIVE** | AI component generator from text/screenshots | v0.dev, Magic Patterns | **$20-49** |
 | **[Prism](https://github.com/AethyrionAI/Prism)** 🔷 | 🧪 **BETA** | ServiceNow AI development assistant | ServiceNow AI Tools | **$50-100** |
 | **[Forge](#)** 🎮 | 🚧 **DEV** | AI game development assistant | Unity AI, GameGen | **$30-50** |
-| **[UPL](https://github.com/AethyrionAI/UPL)** 🌐 | 🏗️ **INFRA** | Universal Provider Layer (powers all tools) | Vendor lock-in | **Priceless** |
+| **[UPL](https://github.com/AethyrionAI/UPL-v1.2)** 🌐 | 🏗️ **INFRA** | Universal Provider Layer (powers all tools) | Vendor lock-in | **Priceless** |
 
 </div>
 

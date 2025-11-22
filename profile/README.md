@@ -18,7 +18,7 @@
 
 ## 💡 The Mission
 
-Every month, developers pay hundreds of dollars for tools that should be free. **v0.dev** charges $20/month for 500 generations. **Datadog** costs $69-99 per host. **Postman** is $49/user. **CodeRabbit** is $50/user.
+Every month, developers pay hundreds of dollars for tools that should be free. **Cursor** charges $20/month. **v0.dev** costs $20/month for 500 generations. **GitHub Copilot** is $10-19/month.
 
 We're changing that.
 
@@ -32,13 +32,38 @@ Aethyrion is building a complete ecosystem of **100% free, open-source alternati
 
 | Tool | Status | Description | Replaces | Monthly Savings |
 |:----:|:------:|:-----------|:---------|:---------------:|
+| **[Nova](https://github.com/AethyrionAI/Nova)** ⭐ | ✅ **LIVE** | AI coding assistant with 228+ models | Cursor, Aider, Copilot | **$20-50** |
 | **[Helix](https://github.com/AethyrionAI/Helix)** 🌀 | ✅ **LIVE** | AI component generator from text/screenshots | v0.dev, Magic Patterns | **$20-49** |
 | **[Prism](https://github.com/AethyrionAI/Prism)** 🔷 | 🧪 **BETA** | ServiceNow AI development assistant | ServiceNow AI Tools | **$50-100** |
-| **[Observatory](https://github.com/AethyrionAI/Observatory)** 📊 | 🚧 **SOON** | Self-hosted observability & APM platform | Datadog, New Relic | **$69-99/host** |
-| **[Conduit](https://github.com/AethyrionAI/Conduit)** 🔌 | 🚧 **SOON** | AI-powered API testing & docs | Postman, Insomnia | **$49/user** |
-| **[Spectra](https://github.com/AethyrionAI/Spectra)** 🌈 | 🚧 **DEV** | AI code review agent (100% local) | CodeRabbit, Codacy | **$12-50/user** |
+| **[Forge](#)** 🎮 | 🚧 **DEV** | AI game development assistant | Unity AI, GameGen | **$30-50** |
+| **[UPL](https://github.com/AethyrionAI/UPL)** 🌐 | 🏗️ **INFRA** | Universal Provider Layer (powers all tools) | Vendor lock-in | **Priceless** |
 
 </div>
+
+---
+
+## ⭐ Nova - AI Coding Assistant (FLAGSHIP)
+**Status:** ✅ Live Now | **Repo:** [AethyrionAI/Nova](https://github.com/AethyrionAI/Nova)
+
+Your AI coding partner with **228+ models**. Free alternative to **Cursor** ($20/mo), **Aider** ($20/mo), and **GitHub Copilot** ($10-19/mo).
+
+**Key Features:**
+- 🤖 **228+ AI Models** - OpenAI, Claude, Groq, Cerebras, Gemini, and more
+- 🧠 **Autonomous Agent Mode** - Multi-step reasoning and planning
+- 💰 **81% Cost Savings** - Prompt caching reduces costs dramatically
+- 🔄 **Smart Provider Switching** - Auto-failover across providers
+- 🧪 **260+ Tests Passing** - Production-ready reliability
+- 💻 **100% Free Forever** - No usage limits, no paywalls
+- 🔒 **Privacy First** - Local AI support with Ollama/LM Studio
+- ⚡ **Extended Reasoning** - Claude 4.x thinking mode for complex problems
+
+**What makes Nova different:**
+- Not just code completion - full autonomous agent capable of multi-file edits
+- Uses UPL for seamless switching between 228+ models
+- Prompt caching saves 81% on costs when working with large codebases
+- Free alternative that actually competes with paid tools
+
+**Tech Stack:** Python, UPL (Universal Provider Layer), Multiple AI Providers
 
 ---
 
@@ -54,17 +79,17 @@ Generate React components from text prompts or screenshots. Upload up to **10 im
 - 📸 10-image multi-modal support with Glimpse
 - ⚡ Instant preview with hot reload
 - 🔧 AI-powered error fixing
-- 🌐 10+ AI providers (Groq, Gemini, Cerebras, Claude, OpenAI, DeepSeek)
+- 🌐 10+ AI providers (powered by UPL)
 - 💻 Local AI support (Ollama, LM Studio) - 100% offline
 - 🔐 AES-GCM encrypted API key storage
 - 📦 One-click export to clipboard
 
-**Tech Stack:** React, TypeScript, Tailwind CSS, Electron, Next.js
+**Tech Stack:** React, TypeScript, Tailwind CSS, Electron, Next.js, UPL
 
 ---
 
 ## 🔷 Prism - ServiceNow AI Assistant
-**Status:** 🧪 Beta | **Repo:** [AethyrionAI/Prism](https://github.com/AethyrionAI/Prism)
+**Status:** 🧪 Closed Beta | **Repo:** [AethyrionAI/Prism](https://github.com/AethyrionAI/Prism)
 
 AI-powered development assistant for **ServiceNow**. Generate scripts, workflows, and documentation with **23 production-tested templates** achieving **9.1/10 quality**.
 
@@ -72,66 +97,60 @@ AI-powered development assistant for **ServiceNow**. Generate scripts, workflows
 - 🤖 AI-powered ServiceNow content generation
 - 🎨 5 ServiceNow-inspired themes
 - 📚 23 templates with 9.1/10 quality rating
-- 🔍 RAG-enhanced code generation
+- 📝 RAG-enhanced code generation
 - ✅ Built-in validation system
 - 🎯 GlideRecord query builder
 - 📊 Script includes & business rules
+
+**Public Release:** Q2 2026
 
 **Tech Stack:** Electron, React, TypeScript, OpenAI API
 
 ---
 
-## 📊 Observatory - Self-Hosted Observability
-**Status:** 🚧 Coming Soon | **Repo:** [AethyrionAI/Observatory](https://github.com/AethyrionAI/Observatory)
+## 🎮 Forge - Game Development AI
+**Status:** 🚧 In Development | **Coming Soon**
 
-Self-hosted observability platform. Free alternative to **Datadog** ($69-99/host/mo) and **New Relic**.
+AI-powered game development assistant. Build games faster with AI assistance.
 
 **Planned Features:**
-- 📈 Application performance monitoring (APM)
-- 📝 Real-time logs, metrics & distributed traces
-- 🤖 AI-powered root cause analysis
-- 📊 Beautiful customizable dashboards
-- 🔍 OpenTelemetry native support
-- ⚡ High-performance time-series storage
-- 🔔 Smart alerting & anomaly detection
+- 🤖 AI-powered game design & code generation
+- 🎮 Multi-engine support (Unity, Godot, custom)
+- 🧠 Powered by Nova + UPL for maximum flexibility
+- 📚 Game guide builder for players
+- 🎨 Asset generation assistance
+- 💬 Natural language game logic
+- 🔄 Iterative development workflow
 
-**Tech Stack:** Go, TimescaleDB/ClickHouse, React, TypeScript
+**Target Release:** Q2 2026
+
+**Tech Stack:** Python, Nova, UPL, Multiple AI Providers
 
 ---
 
-## 🔌 Conduit - AI API Testing
-**Status:** 🚧 Coming Soon | **Repo:** [AethyrionAI/Conduit](https://github.com/AethyrionAI/Conduit)
+## 🌐 UPL - Universal Provider Layer (Infrastructure)
+**Status:** 🏗️ Production Infrastructure | **Repo:** [AethyrionAI/UPL](https://github.com/AethyrionAI/UPL)
 
-AI-powered API testing & documentation. Free alternative to **Postman** ($49/user/mo).
+The foundation powering the entire Aethyrion ecosystem. Switch between **228+ AI models** across **12 providers** with one API.
 
-**Planned Features:**
-- 🤖 AI-generated test cases & documentation
-- 🔌 Interactive API testing environment
-- 🎭 Mock servers with realistic data generation
-- 📚 OpenAPI/Swagger import & export
-- 💬 AI chat for API exploration
-- 🔐 Environment & secret management
-- 🚀 CI/CD integration
+**What It Does:**
+- 🔄 **Zero Vendor Lock-in** - Switch providers with one line
+- 📊 **228+ Models** - OpenAI, Claude, Groq, Cerebras, Gemini, and more
+- 💰 **81% Cost Savings** - Prompt caching support
+- 🧠 **Extended Reasoning** - Claude 4.x thinking mode
+- 📚 **1M Context Window** - Moonshot K2 support
+- ⚡ **30,300+ Free Requests/Day** - From free providers
+- 🔄 **Dynamic Model Fetching** - Auto-discover new models
 
-**Tech Stack:** Electron, React, TypeScript, Node.js
+**Powers:**
+- Nova's 228+ model support
+- Helix's multi-provider component generation
+- Forge's flexible AI backend
+- Prism's ServiceNow intelligence
 
----
+**Status:** Published as "infrastructure gift" to pay forward inspiration from [kosong](https://github.com/MoonshotAI/kosong)
 
-## 🌈 Spectra - AI Code Review
-**Status:** 🚧 In Development | **Repo:** [AethyrionAI/Spectra](https://github.com/AethyrionAI/Spectra)
-
-AI-powered code review agent. Free alternative to **CodeRabbit** ($12-50/user/mo) and **Codacy**.
-
-**Planned Features:**
-- 🐛 AI-powered bug & security detection
-- ⚡ Performance analysis & optimization tips
-- 🔍 Code smell & anti-pattern detection
-- 🔄 Git integration for automatic PR reviews
-- 💻 100% local - code never leaves your machine
-- 🌐 Multi-language support
-- 📊 Code quality metrics & trends
-
-**Tech Stack:** Python, Rust, React, TypeScript, Ollama
+**Tech Stack:** Python, Async/Await, Multiple Provider SDKs
 
 ---
 
@@ -139,9 +158,9 @@ AI-powered code review agent. Free alternative to **CodeRabbit** ($12-50/user/mo
 
 <div align="center">
 
-![Tools](https://img.shields.io/badge/Tools_in_Ecosystem-5-8b5cf6?style=for-the-badge&labelColor=0f172a)
+![Tools](https://img.shields.io/badge/Active_Tools-3-8b5cf6?style=for-the-badge&labelColor=0f172a)
+![Models](https://img.shields.io/badge/AI_Models-228+-ec4899?style=for-the-badge&labelColor=0f172a)
 ![Free Forever](https://img.shields.io/badge/Free_Forever-100%25-10b981?style=for-the-badge&labelColor=0f172a)
-![No Limits](https://img.shields.io/badge/No_Limits-∞-f59e0b?style=for-the-badge&labelColor=0f172a)
 ![Open Source](https://img.shields.io/badge/License-MIT-3b82f6?style=for-the-badge&labelColor=0f172a)
 
 </div>
@@ -150,7 +169,24 @@ AI-powered code review agent. Free alternative to **CodeRabbit** ($12-50/user/mo
 
 ## 🚀 Getting Started
 
-### Try Helix (Live Now!)
+### Try Nova (AI Coding Assistant)
+```bash
+# Clone the repo
+git clone https://github.com/AethyrionAI/Nova.git
+cd Nova
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up your API keys
+cp .env.example .env
+# Edit .env with your API keys
+
+# Run Nova
+python nova.py
+```
+
+### Try Helix (Component Generator)
 ```bash
 # Clone the repo
 git clone https://github.com/AethyrionAI/Helix.git
@@ -163,7 +199,7 @@ npm install
 npm start
 ```
 
-Or download the desktop app from [Releases](https://github.com/AethyrionAI/Helix/releases) ⬇️
+Or download desktop apps from each repo's [Releases](https://github.com/AethyrionAI/Nova/releases) ⬇️
 
 ### Stay Updated
 ⭐ **Star this organization** to get notified when new tools launch!
@@ -178,30 +214,46 @@ Or download the desktop app from [Releases](https://github.com/AethyrionAI/Helix
 | **Usage Limits** | Strict tiers & caps | **Unlimited** |
 | **Source Code** | Proprietary | **MIT License** |
 | **Data Privacy** | Sent to cloud | **Your machine** |
-| **Vendor Lock-in** | High | **None** |
+| **Vendor Lock-in** | High | **None (thanks to UPL)** |
 | **Local AI Support** | Rare | **Built-in** |
+| **Model Choice** | 1-3 models | **228+ models** |
 
 ---
 
 ## 🎯 Roadmap
 
-**Q4 2025**
-- ✅ Helix v1.0 - AI component generator (DONE)
+**Q4 2025** ✅
+- ✅ Nova v1.0 - AI coding assistant (DONE)
+- ✅ Helix v1.0 - Component generator (DONE)
+- ✅ UPL v1.2.0 - Infrastructure layer (DONE)
 - ✅ Prism Beta - ServiceNow assistant (DONE)
-- 🔜 Observatory Alpha - Self-hosted observability
 
 **Q1 2026**
-- 🔜 Conduit Alpha - API testing platform
-- 🔜 Spectra Alpha - AI code review
+- 🔜 Nova v1.5 - Enhanced agent capabilities
+- 🔜 UPL Open Source - Public infrastructure release
 
 **Q2 2026**
+- 🔜 Forge Alpha - Game development AI
+- 🔜 Prism Public Release
 - 🔜 Helix v2.0 - Multi-framework support
-- 🔜 Observatory v1.0 - Production ready
 
 **Future**
 - 🌟 More tools based on community feedback
 - 🌟 Plugin ecosystems for each tool
-- 🌟 Cross-tool integrations
+- 🌟 Cross-tool integrations powered by UPL
+
+---
+
+## 🏗️ Architecture Philosophy
+
+**Everything is built on UPL** - our Universal Provider Layer that abstracts away AI provider differences. This gives every Aethyrion tool:
+
+- **Provider Choice:** Switch between 228+ models seamlessly
+- **Cost Optimization:** Use free providers or optimize paid usage
+- **Zero Lock-in:** Never stuck with one vendor
+- **Future-Proof:** New models appear automatically
+
+This is what makes Aethyrion different - we're not building tools that depend on one AI provider. We're building an ecosystem with choice at its core.
 
 ---
 
@@ -236,13 +288,21 @@ All Aethyrion tools are released under the **MIT License**. Use them, modify the
 
 ---
 
+## 🙏 Credits & Inspiration
+
+**UPL** was inspired by [Moonshot's kosong provider](https://github.com/MoonshotAI/kosong). They showed us that multi-provider abstraction was possible. We took it further and built an entire ecosystem on top of that insight.
+
+Open source compounds. They shared their work, we built on it, now we're sharing ours. Maybe you'll build something even better.
+
+---
+
 <div align="center">
 
 ### Built with ❤️ by developers, for developers
 
 **No VC funding. No corporate overlords. Just pure passion for free, quality tools.**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AethyrionAI/Helix,AethyrionAI/Prism,AethyrionAI/Observatory,AethyrionAI/Conduit,AethyrionAI/Spectra&type=Date)](https://star-history.com/#AethyrionAI/Helix&AethyrionAI/Prism&AethyrionAI/Observatory&AethyrionAI/Conduit&AethyrionAI/Spectra&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AethyrionAI/Nova,AethyrionAI/Helix,AethyrionAI/Prism,AethyrionAI/UPL&type=Date)](https://star-history.com/#AethyrionAI/Nova&AethyrionAI/Helix&AethyrionAI/Prism&AethyrionAI/UPL&Date)
 
 ---
 

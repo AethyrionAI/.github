@@ -43,7 +43,7 @@ Aethyrion is building a complete ecosystem of **100% free, open-source alternati
 ---
 
 ## ⭐ Nova - AI Coding Assistant (FLAGSHIP)
-**Status:** ✅ Live Now | **Repo:** [AethyrionAI/Nova](https://github.com/AethyrionAI/Nova)
+**Status:** ✅ Live Soon | **Repo:** [AethyrionAI/Nova](https://github.com/AethyrionAI/Nova)
 
 Your AI coding partner with **228+ models**. Free alternative to **Cursor** ($20/mo), **Aider** ($20/mo), and **GitHub Copilot** ($10-19/mo).
 

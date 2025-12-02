@@ -218,7 +218,7 @@ cd Helix
 npm install
 
 # Run the app
-npm start
+npm run dev
 ```
 
 Or download desktop apps from each repo's [Releases](https://github.com/AethyrionAI/Nova/releases) ⬇️

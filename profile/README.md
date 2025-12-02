@@ -43,27 +43,30 @@ Aethyrion is building a complete ecosystem of **100% free, open-source alternati
 ---
 
 ## ⭐ Nova - AI Coding Assistant (FLAGSHIP)
-**Status:** ✅ Live Soon | **Repo:** [AethyrionAI/Nova](https://github.com/AethyrionAI/Nova)
+**Status:** ✅ Live (v1.0.0-alpha) | **Repo:** [AethyrionAI/Nova](https://github.com/AethyrionAI/Nova)
 
 Your AI coding partner with **228+ models**. Free alternative to **Cursor** ($20/mo), **Aider** ($20/mo), and **GitHub Copilot** ($10-19/mo).
 
 **Key Features:**
 - 🤖 **228+ AI Models** - OpenAI, Claude, Groq, Cerebras, Gemini, and more
-- 🧠 **Autonomous Agent Mode** - Multi-step reasoning and planning
+- 🧠 **Autonomous Agent Mode** - Multi-step reasoning, planning, and execution
+- 💬 **3 Interaction Modes** - Chat, Agent, and CLI
 - 💰 **81% Cost Savings** - Prompt caching reduces costs dramatically
-- 🔄 **Smart Provider Switching** - Auto-failover across providers
-- 🧪 **260+ Tests Passing** - Production-ready reliability
+- 🔄 **Smart Provider Switching** - Auto-failover across 9 providers
+- 🧪 **285+ Tests Passing** - Production-ready reliability
 - 💻 **100% Free Forever** - No usage limits, no paywalls
 - 🔒 **Privacy First** - Local AI support with Ollama/LM Studio
-- ⚡ **Extended Reasoning** - Claude 4.x thinking mode for complex problems
+- ⚡ **Extended Reasoning** - Claude thinking mode for complex problems
+- 🔐 **Security Hardened** - Path traversal protection, CSP headers, input validation
 
 **What makes Nova different:**
 - Not just code completion - full autonomous agent capable of multi-file edits
-- Uses UPL for seamless switching between 228+ models
+- Uses UPL for seamless switching between 228+ models across 9 providers
 - Prompt caching saves 81% on costs when working with large codebases
+- Privacy-first telemetry (opt-in only, no PII ever collected)
 - Free alternative that actually competes with paid tools
 
-**Tech Stack:** Python, UPL (Universal Provider Layer), Multiple AI Providers
+**Tech Stack:** Python, FastAPI, React, TypeScript, UPL (Universal Provider Layer)
 
 ---
 
@@ -137,7 +140,7 @@ The foundation powering the entire Aethyrion ecosystem. Switch between **228+ AI
 - 🔄 **Zero Vendor Lock-in** - Switch providers with one line
 - 📊 **228+ Models** - OpenAI, Claude, Groq, Cerebras, Gemini, and more
 - 💰 **81% Cost Savings** - Prompt caching support
-- 🧠 **Extended Reasoning** - Claude 4.x thinking mode
+- 🧠 **Extended Reasoning** - Claude thinking mode
 - 📚 **1M Context Window** - Moonshot K2 support
 - ⚡ **30,300+ Free Requests/Day** - From free providers
 - 🔄 **Dynamic Model Fetching** - Auto-discover new models
@@ -170,21 +173,40 @@ The foundation powering the entire Aethyrion ecosystem. Switch between **228+ AI
 ## 🚀 Getting Started
 
 ### Try Nova (AI Coding Assistant)
+
+**Prerequisites:** Python 3.11+, Node.js 18+, Git
+
 ```bash
 # Clone the repo
 git clone https://github.com/AethyrionAI/Nova.git
 cd Nova
 
-# Install dependencies
-pip install -r requirements.txt
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# Windows:
+.\venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies (use locked versions for stability)
+pip install -r requirements-lock.txt
 
 # Set up your API keys
 cp .env.example .env
-# Edit .env with your API keys
+# Edit .env with at least one API key (GROQ_API_KEY is free!)
 
-# Run Nova
-python nova.py
+# Run the backend
+python main.py api --port 8000
+
+# In a new terminal, run the frontend
+cd frontend
+npm install
+npm run dev
 ```
+
+Open http://localhost:5173 in your browser and start coding!
 
 ### Try Helix (Component Generator)
 ```bash
@@ -225,7 +247,7 @@ Or download desktop apps from each repo's [Releases](https://github.com/Aethyrio
 **Q4 2025** ✅
 - ✅ Nova v1.0 - AI coding assistant (DONE)
 - ✅ Helix v1.0 - Component generator (DONE)
-- ✅ UPL v1.2.0 - Infrastructure layer (DONE)
+- ✅ UPL v1.6.0 - Infrastructure layer (DONE)
 - ✅ Prism Beta - ServiceNow assistant (DONE)
 
 **Q1 2026**
